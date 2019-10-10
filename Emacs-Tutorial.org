@@ -1,2 +1,92 @@
 #+TITLE: Emacs Tutorial
 #+AUTHOR: Isaac Zhou
+* Basic Operations
+** Keys
+*** C-<chr>
+    - Ctrl then <chr>
+*** M-<chr>
+    - Alt then <chr>
+** Screen Navigation
+*** C-v
+    - Move forward one window
+*** M-v
+    - Move backward one window
+*** C-l
+    - Recenter the window
+** Move within Window
+*** C-p
+    - Move to the previous line
+*** C-n
+    - Move to the next line
+*** C-f
+    - Move forward one letter 
+*** C-b
+    - Move backward one letter
+*** M-f
+    - Move forward one word
+*** M-b
+    - Move backward one word
+** Range Navigation
+*** M - <
+    - file beginning
+*** M - >
+    - file end
+*** C - a
+    - line head
+*** C - e
+    - line end
+*** M - a
+    - sentence head
+*** M - e
+    - sentence end
+** Edit
+*** C - d
+    - delete one letter
+*** M - d
+    - delete one word
+*** C - k
+    - delete to line end
+*** M - d
+    - delete to sentence end
+*** C - spc, C - w
+    - select range
+    - delete range
+*** C - y
+    - paste
+** Window Split
+*** C - x - 2
+    - Horizontal Split
+*** C - x - 3
+    - Vertical Split
+*** C - x - 1
+    - Only keep 1 window
+*** C - x - 0
+    - Close the window
+*** C - x - o
+    - Jump into different windows
+** File Operations
+*** C - x - f
+    - find files
+*** C - x C - s
+    - save
+*** C - x C - b
+    - list all the files in the buffer
+*** C - x b
+    - switch to files in the buffer
+** Status
+*** Major Mode
+*** M - x text-mode
+    - switch to major mode
+*** Minor Mode
+    - one major mode has multiple minor mode
+** Help
+*** C-h ?
+    - list help options
+*** C-h c C-p
+    - function name for C-p
+*** C-h k C-p
+    - function doc for C-p
+*** C-h f
+    - describe function
+*** C-h-t
+    - Emacs Tutorial
